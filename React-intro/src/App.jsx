@@ -1,14 +1,17 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './index.css'
+import Header from './components/Header';
+import Tasks from './components/Tasks';
 
 
 function App() {
+ 
 
   return (
-    <div>
-      <h1>Hello World from React</h1>
-    </div>
+   <div className='container'>
+     <Header />
+     <Tasks />
+   </div>
+  
   )
 }
 
