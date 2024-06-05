@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+   }
+
+h2{
+    color: hsl(0, 0%, 100%);
+    margin: 5px 0;
+}
+
+.color{
+    color: hsl(75, 94%, 57%);
+}
+
+.skill{
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul>li{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    margin: .5rem 0;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+}
+
+ul>li:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
